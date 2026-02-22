@@ -1,7 +1,7 @@
 {
   "name": "chat-app",
   "version": "1.0.0",
-  "description": "Real-time chat app using Node.js and Socket.io",
+  "description": "Real-time chat app with login and register using Node.js and Socket.io",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "socket.io": "^4.7.2"
+    "socket.io": "^4.7.2",
+    "express-session": "^1.17.3",
+    "bcrypt": "^5.1.1"
   }
 }
